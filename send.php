@@ -13,7 +13,7 @@
       "firstname: “.$FirstName.”\r".
       "mail: “.$Mail.”\r".
       "object: “.$Object.”\r".
-      "remarques: “.$Message.”\r";
+      "message: “.$Message.”\r";
 
       $all = '<html><body>';
       $all .= '<table rules="all" style="border-color: #0c9bdd;" cellpadding="20">';
