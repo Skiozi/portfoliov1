@@ -24,16 +24,19 @@
       $all .= "<tr><td><strong>Message:</strong> </td><td>" . strip_tags($_POST['message']) . "</td></tr>";
       $all .= "</table>";
       $all .= "</body></html>";
-
-      if(empty($LastName) || empty($FirstName) || empty($Mail) ||  empty($Object)|| empty($Message)) {
-          header('location:https://alexandre-bruchet.netlify.app/');
-      } else {   
+    
+      if(empty($LastName) || empty($FirstName) || empty($Mail) || empty($Object) || empty($Message))
+      {
+          header('location:http://127.0.0.1:5500/');
+      }
+      else
+      {   
           $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-          $to = "bruchet.alexandre1@gmail.com";
+          $to = "contact@moonaesport.fr";
 
-          if(mail($to,$all,$headers))
+          if(mail($to,$Role,$all,$headers,$Email))
           {
-            header('location:https://alexandre-bruchet.netlify.app/');
+            header('location:http://127.0.0.1:5500/');
           }
       }
     }
