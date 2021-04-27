@@ -31,7 +31,7 @@
           $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
           $to = "bruchet.alexandre1@gmail.com";
 
-          if(mail($to,$Object,$all,$headers,$Mail))
+          if(mail($to,$all,$headers))
           {
             header('location:http://127.0.0.1:5500/');
           }
