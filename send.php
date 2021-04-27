@@ -26,14 +26,14 @@
       $all .= "</body></html>";
 
       if(empty($LastName) || empty($FirstName) || empty($Mail) ||  empty($Object)|| empty($Message)) {
-          header('location:https://moonaesport.fr/club/recrutement/');
+          header('location:http://127.0.0.1:5500/');
       } else {   
           $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-          $to = "contact@moonaesport.fr";
+          $to = "bruchet.alexandre1@gmail.com";
 
-          if(mail($to,$Role,$all,$headers,$Email))
+          if(mail($to,$Object,$all,$headers,$Mail))
           {
-            header('location:https://moonaesport.fr/club/recrutement/');
+            header('location:http://127.0.0.1:5500/');
           }
       }
     }
