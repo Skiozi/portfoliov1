@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// ---------------------------------- HEADER ----------------------------------
+.header {
+
+    & nav ul {
+        display: none;
+    }
+
+    & nav h1 {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 32px;
+        border-bottom: 1px solid #1C1B20;
+        padding-bottom: 8px;
+        color: #1C1B20;
+    }
+}
+// ---------------------------------- ABOUT ----------------------------------
+.about {
+    & h2 {
+        font-family: 'Taviraj', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 30px 0 0 20px;
+    }
+    & .presentation1 {
+        & p {
+            font-family: 'Taviraj', sans-serif;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+        & .border1 {
+            border-bottom: 1px solid #1C1B20;
+            width: 35px;
+            height: 1px;
+            margin-left: 40px;
+        }
+        & p:nth-of-type(1) {
+            margin: 30px 0 0 40px;
+        }
+        & p:nth-of-type(2) {
+            margin: 5px 0 0 40px;
+        }
+        & p:nth-of-type(3) {
+            margin: 0 0 0 40px;
+        }
+    }
+    & .presentation2 {
+        margin-top: 42px;
+        & p {
+            font-family: 'Taviraj', sans-serif;
+            font-weight: 400;
+            font-size: 15px;
+            text-transform: capitalize;
+            border-left: 1px solid #1C1B20;
+            padding-left: 10px;
+            color: #1C1B20;
+
+
+            & a {
+                color: #1C1B20;
+                text-decoration: none;
+            }
+        }
+        & p {
+            margin: 20px 0 0 40px;
+        }
+    }
+    & h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 60px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #1C1B20;
+    }
+}
+// ---------------------------------- WORK ----------------------------------
+.work {
+    & h2 {
+        font-family: 'Taviraj', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 30px 0 0 20px;
+    }
+    & .first-project {
+        display: flex;
+        justify-content: center;
+
+        & img {
+            width: 100%;
+            height: 180px;
+            margin-top: 60px;
+
+        }
+        & h3 {
+            font-weight: 800;
+            font-size: 20px;
+            margin-top: 12px;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+        & p {
+            font-family: 'Taviraj', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        & table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        & table td{ 
+            border: 1px solid #1C1B20;
+            padding: 8px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Taviraj', sans-serif;
+            font-size: 13px;
+        }
+        & a {
+            color: #1C1B20;
+            border-bottom: 1px solid #1C1B20;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    }
+    & .second-project {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+
+        & img {
+            width: 100%;
+            height: 180px;
+            margin-top: 60px;
+
+        }
+        & h3 {
+            font-weight: 800;
+            font-size: 20px;
+            margin-top: 12px;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+        & p {
+            font-family: 'Taviraj', sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+        & table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        & table td{ 
+            border: 1px solid #1C1B20;
+            padding: 8px 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Taviraj', sans-serif;
+            font-size: 13px;
+        }
+        & a {
+            color: #1C1B20;
+            border-bottom: 1px solid #1C1B20;
+            text-decoration: none;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+    }
+    & .my_projects {
+        color: #1C1B20;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        border-bottom: 1px solid #1C1B20;
+        text-decoration: underline;
+        display: block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+// ---------------------------------- CONTACT ----------------------------------
+.contact {
+    & h2 {
+        font-family: 'Taviraj', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin: 30px 0 0 20px;
+    }
+    & .container {
+        margin-top: 40px;
+    }
+}
+// ---------------------------------- FOOTER ----------------------------------
+.footer {
+    margin-top: 100px;
+    background-color: #1C1B20;
+    height: 200px;
+    position: relative;
+
+    & p {
+        font-family: 'Taviraj', sans-serif;
+        color: white;
+        text-align: center;
+        font-weight: 300;
+        padding-top: 30px;
+        margin-bottom: 35px;
+    }
+
+    & a {
+        background-color: white;
+        padding: 24px;
+        border-radius: 360px;
+        text-decoration: none;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        & svg {
+            width: 24px;
+            height: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #1C1B20;;
+        }
+    }
+
+}

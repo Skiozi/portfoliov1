@@ -1,22 +1,28 @@
 /** Required Bootstrap **/
-@import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
-@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/functions.scss";
+@import "node_modules/bootstrap/scss/variables.scss";
+@import "node_modules/bootstrap/scss/mixins.scss";
+@import "node_modules/bootstrap/scss/reboot.scss";
 
 
 /** Optional Bootstrap Grid **/
-@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/grid.scss";
 
 /** Optional Bootstrap Navbar **/
-@import "node_modules/bootstrap/scss/transitions";
-@import "node_modules/bootstrap/scss/dropdown";
-@import "node_modules/bootstrap/scss/navbar";
+@import "node_modules/bootstrap/scss/transitions.scss";
+@import "node_modules/bootstrap/scss/dropdown.scss";
+@import "node_modules/bootstrap/scss/navbar.scss";
 
+/** Optional Bootstrap form **/
+@import "node_modules/bootstrap/scss/forms.scss";
+
+/** Optional Bootstrap button **/
+@import "node_modules/bootstrap/scss/buttons.scss";
 
 /** Base **/
 @import 'base';
 
 /** Layouts **/
-@import 'layout/header';
-@import 'layout/footer';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+
